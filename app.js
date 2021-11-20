@@ -38,5 +38,5 @@ const onHeightChange = () => {
     });
 }
 
-createGrid(8, 8);
+createGrid(10, 10);
 onColorChange()
