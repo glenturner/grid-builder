@@ -13,9 +13,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
-    background-repeat: no-repeat;
-    object-fit: cover;
 }
 
 .header_wrapper {
@@ -36,6 +33,7 @@ body {
     letter-spacing: 0.07em;
     font-size: 16px;
     padding: 10px 0;
+    text-align: center;
 }
 
 .grid_item {
@@ -128,4 +126,28 @@ input {
     -webkit-appearance: none !important;
     width: 0 !important;
     height: 0 !important;
+}
+
+@media only screen and (max-width: 1350px) {
+    .form_group {
+        width: 100%;
+    }
+    .button_wrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .input_box::placeholder {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .button {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+    }
 }
