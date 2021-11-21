@@ -41,3 +41,5 @@ const onDimensionChange = () => {
 
 createGrid(16, 16);
 onColorChange()
+
+// "select-" + _selectIndex
