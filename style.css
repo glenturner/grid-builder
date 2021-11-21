@@ -150,4 +150,7 @@ input {
         justify-content: space-evenly;
         margin: 0;
     }
+    #submit {
+        display: none !important;
+    }
 }
