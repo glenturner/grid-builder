@@ -22,7 +22,7 @@ const onColorChange = () => {
     });
 }
 
-const onHeightChange = () => {
+const onDimensionChange = () => {
     document.querySelectorAll('.grid_item').forEach((el) => {
         const height = Math.floor(document.querySelector("#height").value)
         const width = Math.floor(document.querySelector("#width").value)
