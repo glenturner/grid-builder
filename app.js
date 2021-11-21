@@ -8,8 +8,8 @@ const createGrid = (rows, cols) => {
         cell.setAttribute("id", "select-" + _selectIndex++)
         container.appendChild(cell).className = "grid_item";
         cell.style.background = "#" + randomColor;
-        ScrollReveal().reveal('.grid_item', { opacity: 0.2, viewFactor: 0.5, scale: 0.1, delay: 200, reset: false, distance: '150px', origin: 'left' });
     };
+    ScrollReveal().reveal('.grid_item', { opacity: 0.2, viewFactor: 0.5, scale: 0.1, delay: 200, reset: false, distance: '150px', origin: 'left' });
 };
 
 const onColorChange = () => {
@@ -39,5 +39,5 @@ const onHeightChange = () => {
     });
 }
 
-createGrid(12, 12);
+createGrid(16, 16);
 onColorChange()
