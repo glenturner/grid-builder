@@ -146,6 +146,12 @@ input {
     .input_box::placeholder {
         font-size: 12px;
     }
+    .button_wrapper {
+        flex-direction: column-reverse;
+    }
+    .button {
+        margin: 5px 0;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -153,7 +159,6 @@ input {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        margin: 0;
     }
     #submit {
         display: none !important;
