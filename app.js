@@ -12,6 +12,12 @@ const createGrid = (rows, cols) => {
     };
 };
 
+const randomize = () => {
+    document.querySelectorAll(".grid_item").forEach((el) => {
+        el.style.background = "#" + randomColor();
+    });
+}
+
 const onColorChange = () => {
     document.querySelectorAll(".grid_item").forEach((el) => {
         el.addEventListener('click', () => {
@@ -39,7 +45,5 @@ const onDimensionChange = () => {
     });
 }
 
-createGrid(16, 16);
+createGrid(18, 18);
 onColorChange()
-
-// "select-" + _selectIndex
