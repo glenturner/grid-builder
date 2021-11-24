@@ -9,7 +9,7 @@ const createGrid = (rows, cols) => {
         cell.style.background = "#" + randomColor();
         container.appendChild(cell).className = "grid_item";
     };
-    ScrollReveal().reveal('.grid_item', { opacity: 0, scale: 0.2, delay: 0, reset: true, distance: '50px', origin: 'bottom' });
+    ScrollReveal().reveal('.grid_item', { opacity: 0.9, scale: 0.2, delay: 10, reset: true, distance: '50px', origin: 'bottom' });
 };
 
 const randomize = () => {
