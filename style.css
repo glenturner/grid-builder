@@ -159,6 +159,9 @@ input {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px;
     }
     #submit {
         display: none !important;
